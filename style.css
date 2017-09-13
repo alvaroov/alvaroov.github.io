@@ -1,0 +1,168 @@
+/* css document */
+
+
+body {
+    background-image: url(./rocks.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	background-image: url(./banner.jpeg);
+    border-style: solid;
+    border-width: 4px 0px 0px 5px;
+    border-color: #D9DBDB;
+    background-size: cover;
+    white-space:none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 20px 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #D9DBDB;
+    white-space:nowrap;
+	border-bottom: 1px solid #005F6B;
+
+
+}
+
+li {
+	float: left;
+	border-right: 1px solid white;
+	border-top: 0px solid #EBF2F2;
+	}
+
+h3 {
+	width: 420px;
+    padding: 10px 20px;
+    margin: 10px 90px;
+    background-color: #EBF2F2;
+
+}
+
+      
+img{
+
+	padding: 10px 20px;
+    margin: 10px 90px;
+}
+
+	
+p  {
+    border-style: solid;
+    border-width: 25px 0px 0px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3B241A;
+    border-color: #D9DBDB;
+    margin-top: 40px;
+    background-color: #EBF2F2;
+}
+
+
+	
+object{
+    border-style: solid;
+    border-width: 4px 10px 4px 10px;
+    border-color: #D9DBDB;
+    margin: 20px 90px;
+    width: 700px;
+    height: 600px;
+}
+
+li a {
+	    float: left;
+	    display: inline-block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+		background-color: #ADE0DB;
+	}
+	
+.wrapper{
+	margin: auto auto;
+	width: 900px;
+	background-color: #EBF2F2;
+	display: table;
+	}
+
+.menu{
+	position: relative;
+	top: 0;
+    width: 100%;
+	}
+
+
+li:last-child {
+    border-right: none;
+}
+
+.sidebar{
+	width: 260px;
+	overflow: hidden;
+	background-color: #EBF2F2;
+	padding-bottom: 20px;
+	display: table-cell;
+}
+
+
+
+.active {
+    background-color: #D0F2E7;
+    color: black;
+    transition: background-color .25s ease-in-out;
+   -moz-transition: background-color .25s ease-in-out;
+   -webkit-transition: background-color .25s ease-in-out;
+}
+
+   .active:hover {
+      background-color: #BCEBDF;
+      color: white;
+      }
+ 
+#test p {
+        opacity: .25;
+        -moz-transition: opacity .5s;
+        -webkit-transition: opacity .5s;
+        transition: opacity .5s;
+
+    }
+
+#test p.load {
+    opacity: 1;
+	
+}
+
+
+.fade {
+
+    transition: background-color .25s ease-in-out;
+   -moz-transition: background-color .25s ease-in-out;
+   -webkit-transition: background-color .25s ease-in-out;
+   }
+
+	.fade:hover {
+      	background-color: #DE481D;
+		
+      	}
+      	
+      
+#navWrap {
+   height: 30px;
+   border-top: 10px solid #EBF2F2;
+}
+
+
